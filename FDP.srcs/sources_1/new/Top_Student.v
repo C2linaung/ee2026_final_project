@@ -179,6 +179,7 @@ module Top_Student (
     begin
         oled_data_right_reg <= oled_data_menu_right;
         oled_data_left_reg <= oled_data_menu_left;
+        default_segment_outputs;
     end
     endtask
     
